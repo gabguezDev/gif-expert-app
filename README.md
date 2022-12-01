@@ -12,3 +12,11 @@ and all his/her results will be listed at homepage.
 - Jest 29.3.1
 - GIPHY API
 - Vite
+
+Deployed at
+
+https://gabguezdev.github.io/gif-expert-app/
+
+and
+
+https://gif-app-god.netlify.app/
