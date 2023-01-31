@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import useFetchGifs from "../hooks/useFetchGifs";
+import { useFetchGifs } from "../hooks/useFetchGifs";
 
 import { IGifGridProps } from "../interfaces";
 

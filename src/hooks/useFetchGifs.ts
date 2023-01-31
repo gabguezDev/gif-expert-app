@@ -4,7 +4,7 @@ import getGifs from "../helpers/getGifs";
 
 import { IGetGifsResponse } from "../interfaces";
 
-const useFetchGifs = (category: string) => {
+export const useFetchGifs = (category: string) => {
 	const [categoryItems, setCategoryItems] = useState<IGetGifsResponse[]>([]);
 
 	const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -25,5 +25,3 @@ const useFetchGifs = (category: string) => {
 
 	return { categoryItems, isLoading };
 };
-
-export default useFetchGifs;

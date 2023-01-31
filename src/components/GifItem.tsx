@@ -10,8 +10,8 @@ export const GifItem = ({
 	title,
 }: IGetGifsResponse) => {
 	return (
-		<div className="card" id={`card-${id}`}>
-			<img src={imgSrc} alt={title} width={width} height={height} />
+		<div className="card" id={`card-${id}`} data-testid="gif-item">
+			<img src={imgSrc} alt={title} width={width} height={height} data-testid="img"/>
 			<p>{title}</p>
 		</div>
 	);
